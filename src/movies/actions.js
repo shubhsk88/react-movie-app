@@ -1,8 +1,9 @@
-const GET_MOVIES = 'GET_MOVIES';
-const GET_MOVIE = 'GET_MOVIE';
+export const GET_MOVIES = 'GET_MOVIES';
+export const GET_MOVIE = 'GET_MOVIE';
+export const RESET_MOVIE = 'RESET_MOVIE';
 
 const key = process.env.APP_KEY;
-export const RESET_MOVIES = 'RESET_MOVIE';
+console.log(key);
 
 export function getMovies() {
   return async function (dispatch) {
